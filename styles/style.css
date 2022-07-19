@@ -23,6 +23,32 @@ hr{
     border:1px solid #D1D1D1;
     margin-bottom: 27px;
 }
+/* =======================================menu design ========================================= */
+.menus{
+    background-color: rgb(106, 77, 238);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 650px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    align-items: right;
+}
+.menu-item{
+    display: flex;
+}
+.home{
+    padding: 10px;
+}
+.about{
+    padding: 10px;
+}
+.contact{
+    padding: 10px;
+}
 
 /*========================================= top player styles ==================================*/
 .top-players{
